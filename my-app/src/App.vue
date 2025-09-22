@@ -58,14 +58,13 @@ body{
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to top, #30c67c, #82f4b1);
+  background-color: #88e788;
 }
 
 h1{
   font-size: 3.5rem;
   font-weight: 400;
-  color: #ffffff;
-  margin: 0;
+  margin: 15px;
 }
 
 button{
@@ -74,12 +73,17 @@ button{
   border: none;
   font-size: 1rem;
   cursor: pointer;
-  background-color: #30c67c;
+  color: #ffffff;
+  background-color: #121212;
 }
 
 .Gerador{
   width: 100%;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border-radius: 5px;
   background-color: #ffffff;
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
@@ -110,13 +114,12 @@ button{
   border: none;
   cursor: pointer;
   color: #ffffff;
-  background-color: #30c67c;
-  font-size: 1.2rem;
+  background-color: #121212;
 }
 
 .QRcode{
-  width: 100%;
-  height: 50vh;
+  width: 300px;
+  height: 300px;
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
